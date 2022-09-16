@@ -1,0 +1,53 @@
+* {
+    text-align: center;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    min-height: 400px;
+    background-image: url(https://i.pinimg.com/originals/28/5b/db/285bdb717d77eb00bb81088a2b4aa674.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: 300px 100px 100px;
+    padding: 90px;
+}
+table {
+   width: 100%;
+   border: 2px solid whitesmoke;
+   border-collapse: collapse;
+}
+th, tr, td {
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    background-color: black;
+}
+.btn-vitoria {
+    background-color: #367E18;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.btn-empate {
+    background-color: #CC3636;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.btn-derrota {
+    background-color: #FFB200;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bolder;
+}
+/*HOVER*/
+.btn-vitoria:hover {
+   color: #5BB318;
+}
+.btn-empate:hover {
+    color: #FF1E00;
+}
+.btn-derrota:hover {
+    color: #EF5B0C;   
+    
+}
